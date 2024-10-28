@@ -3,6 +3,7 @@ const router = express.Router();
 const recipeController = require('../controllers/recipecontroller');
 const Categories = require('../models/category')
 const Recieps = require('../models/recipe')
+require('dotenv').config();
 
 router.get('/getcategories', async (req, res) => {
 

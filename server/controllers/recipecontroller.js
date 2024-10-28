@@ -1,6 +1,7 @@
 require('../models/database');
 const category  = require('../models/category');
 const recipe  = require('../models/recipe');
+require('dotenv').config();
 
 
 exports.homepage = async(req, res) => {
